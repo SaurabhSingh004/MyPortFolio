@@ -5,8 +5,9 @@
     "description": "in IT from Bundelkhand Institute of Engineering & Technology, Jhansi",
     "image": "download.png",
     "bio": "I am an ambitious and hardworking individual, with broad skills in Full Stack Web Development, and also made some real-life projects . My key strength is communication, building strong relationships with people in order to deliver the best results",
-    "contactmessage": "Would definately like to connect with you.",
-    "email": "saurabh.destroyer98@gmail.com",
+    "contactmessage":"Would definately like to connect with you.",
+    "objective": "To work in a highly competitive environment with a perfect challenge by contributing the best for the growth of the organization while ensuring growth in my personal career.",
+    "email": "isinghsaurabh004@gmail.com",
     "phone": "+91 7007593510",
     "address": {
       
@@ -14,7 +15,7 @@
       "state": "Uttar Pradesh",
       "zip": "208007"
     },
-    "resumedownload": "https://drive.google.com/file/d/1YtcoF_PFtdz5Kepg5rpVzISIhHh6tCNr/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1z_1XtY_4flTnRAHdXDVZF_gVprdijWfA/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -25,6 +26,18 @@
         "name": "github",
         "url": "https://github.com/SaurabhSingh004/",
         "className": "fa fa-github"
+      },
+      {
+        "name": "Leetcode",
+        "url": "https://leetcode.com/Cratos_0077",
+        "className": "leetcode",
+        "src":"leetcode.png"
+      },
+      {
+        "name": "hackerrank",
+        "url": "https://www.hackerrank.com/saurabh_destroy1",
+        "className": "hackerrank",
+        "src":"hackerrank.jpg"
       }
     ]
   },
@@ -34,22 +47,41 @@
       {
         "school": "Bundelkhand Institute of Engineering  & Technology, Jhansi",
         "degree": "Bachelor's Degree, Information Technology",
-        "graduated": "June 2022",
-        "description": "7.8 CGPA till 7th Semester"
+        "graduated": "July 2022",
+        "description": "7.74 CGPA "
+      },
+      {
+        "school": "Army Public School, Kanpur ",
+        "degree": "Intermediate-12th",
+        "graduated": "June 2017",
+        "description": "90.8% "
+      },
+      {
+        "school": "Army Public School, Kanpur ",
+        "degree": "High School- 10th",
+        "graduated": "June 2015",
+        "description": "86% "
       }
     ],
     "work": [
       {
         "company": "Ungrezi Edu Lab",
         "title": "Software Trainee Intern",
-        "years": "June 2021 - August 2021",
+        "years": "June 2021 - October 2021",
         "description": "Writing high-quality source code to program complete applications modules, Collaborating with team members for the integration of various modules, Testing on different platforms and debugging"
+      },
+      {
+        "company": "Epam Systems",
+        "title": "Junior Software developer Intern",
+        "years": "May 2022 - ",
+        "description": "During this Internship, I have worked on C# Language and Currently working on .NET Framework for Full stack development for Writing high-quality source code to program complete applications modules"
       }
+      
     ],
     "skills": [
       {
         "name": "M.E.R.N Techstack",
-        "level": "80%"
+        "level": "70%"
       },
       {
         "name": "Data Structures and Algorithm",
@@ -66,6 +98,11 @@
       {
         "name": "SQL",
         "level": "80%"
+      }
+      ,
+      {
+        "name":"Java",
+        "level":"70%"
       }
 
     ]
@@ -89,6 +126,12 @@
         "category": "",
         "image": "social.png",
         "url": "https://github.com/SaurabhSingh004/SocialMediaApp"
+      },
+      {
+        "title": "M.E.R.N. Chat App",
+        "category": "",
+        "image": "chat.jpg",
+        "url": "https://github.com/SaurabhSingh004/Mern-Chat-App"
       }
     ]
   }

@@ -1,17 +1,20 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
-
+import "./style.css";
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
     var description = data.description;
     var city = data.address.city;
+    var objective=data.objective;
     var networks = data.social.map(function (network) {
+      var image="images/portfolio/"+network.src;
       return (
-        <li key={network.name}>
+        <li key={network.name} className={network.name}>
           <a href={network.url}>
-            <i className={network.className}></i>
+            
+            {network.src?<img src={image} alt=""/>:<i className={network.className}></i>}
           </a>
         </li>
       );
@@ -50,11 +53,6 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
-          <li>
             <a className="smoothscroll" href="#contact">
               Contact
             </a>
@@ -70,6 +68,12 @@ const Header = ({ data }) => {
           <h3>
             Based in {city}. <span>{occupation}</span>. {description}.
           </h3>
+          <hr /><hr />
+          <h3>
+            <div className="title text-center">Carrer Objective</div>
+            {objective}
+          </h3>
+          <br/>
           <hr />
           <ul className="social">{networks}</ul>
         </div>
